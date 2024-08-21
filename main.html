@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olimpi Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="layout-wrapper">
+        <div class="sidebar">
+            <h2>Olimpi</h2>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"><i class="fas fa-home"></i> Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-boxes"></i> Inventario</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-database"></i> Backups</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-cog"></i> Configuración</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <input type="text" class="form-control search-bar" placeholder="Buscar">
+                <button class="btn btn-outline-success">Asignar nuevo ticket</button>
+                <a href="#" class="btn btn-outline-success">Mi perfil</a>
+            </div>
+            <h3>Tickets recientes</h3>
+            <div class="main-content-wrapper">
+                <div class="main-content-left">
+                    <div class="card card-custom">
+                        <div class="card-body">
+                            <h5 class="card-title">Usuario 1</h5>
+                            <p class="card-text">usuario1@gmail.com</p>
+                            <p class="card-text">Técnico de Soporte de PC</p>
+                            <p class="card-text">La PC de escritorio no enciende después de una actualización del sistema.</p>
+                            <button class="btn btn-outline-success">Enabled</button>
+                        </div>
+                    </div>
+                    <div class="card card-custom">
+                        <div class="card-body">
+                            <h5 class="card-title">Incidencias en el Área de Soporte Técnico</h5>
+                            <div class="circular-chart">
+                                <div class="circle">
+                                    <strong>60%</strong>
+                                </div>
+                            </div>
+                            <p>Copias de seguridad realizadas en PC</p>
+                            <p>Tiempo aproximado de finalización: 10:47</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content-right">
+                    <div class="card card-custom sidebar-right">
+                        <div class="card-body">
+                            <h5>Especialistas</h5>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex align-items-center">
+                                    <img src="img/cr7.jpg" alt="Lionel Scaloni" width="60" height="60">
+                                    <span>Lionel Scaloni - Especialista en redes</span>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center">
+                                    <img src="img/cr7.jpg" alt="Julián Álvarez" width="70" height="60">
+                                    <span>Julián Álvarez - Especialista en Aplicaciones</span>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center">
+                                    <img src="img/cr7.jpg" alt="Paulo Dybala" width="65" height="60">
+                                    <span>Paulo Dybala - Especialista en Hardware</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card card-custom">
+                        <div class="card-body">
+                            <h5>Tareas</h5>
+                            <ul class="list-group">
+                                <li class="list-group-item">Lun 03 - Copias de seguridad realizadas en PC (09:00 - 10:30)</li>
+                                <li class="list-group-item">Lun 03 - Reunión (09:00 - 10:30)</li>
+                                <li class="list-group-item">Mie 05 - Reunión (09:00 - 10:30)</li>
+                            </ul>
+                            <button class="btn btn-outline-success mt-3">Agregar nueva tarea</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
