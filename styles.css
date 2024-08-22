@@ -2,15 +2,17 @@ body{
     background-color: whitesmoke;
     margin: 0%;
     padding: 0%;
+    overflow: hidden;
 }
 
 .pantallaIzquierda{
     background-color: white;
-    height: 100vh;
+    height: 1000vh;
     width: 320px;
     margin: 0%;
     padding: 0%;
-
+    position: absolute;
+    margin-top: -4.4%;
 }
 
 .tituloPantallaIzquierda{
@@ -66,4 +68,88 @@ body{
     position: absolute;
     margin-top: 25px;
     margin-left: 15px;
+}
+
+/* Estilo para la parte superior */
+.barraSuperior {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.tituloBarraSuperior {
+    color: #17A589;
+    font-size: 40px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.buscador {
+    padding-left: 20%;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.inputBuscar {
+    margin-top: 10%;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 20px 0 0 20px;
+    border: 2px solid #17A589;
+    outline: none;
+}
+
+.btnBuscar {
+    background-color: #17A589;
+    border: none;
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
+    margin-top: 10%;
+    height: 82.6px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.iconoBuscar {
+    height: 24px;
+    width: 24px;
+}
+
+.opcionesDerecha {
+    display: flex;
+    align-items: center;
+}
+
+.iconoNotificaciones {
+    height: 40px;
+    width: 40px;
+    margin-right: 100px;
+    margin-top: 37%;
+    cursor: pointer;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iconoPerfil {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    margin-top: 70.8%;
+    
+}
+
+.textoPerfil {
+    margin-top: 70.8%;
+    font-size: 20px;
+    color: #444;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
 }
