@@ -2,12 +2,12 @@ body{
     background-color: whitesmoke;
     margin: 0%;
     padding: 0%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .pantallaIzquierda{
     background-color: white;
-    height: 1000vh;
+    height: 130vh;
     width: 320px;
     margin: 0%;
     padding: 0%;
@@ -168,7 +168,7 @@ body{
 .pantallaDerecha{
     float: right;
     background-color: white;
-    height: 1000vh;
+    height: 106.5vh;
     width: 380px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px ;
@@ -281,4 +281,111 @@ body{
 
 .pantallaMedio{
     position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.tituloPrincipal{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 8%;
+    margin-left: 20%;
+}
+
+.btnAgregarTicket{
+    position: absolute;
+    margin-top: -4.5%;
+    margin-left: 60%;
+    background-color: #87CEEB; /* Fondo celeste */
+    color: white; /* Texto en blanco */
+    font-size: 18px; /* Tamaño del texto */
+    font-family: Arial, sans-serif; /* Fuente */
+    padding: 20px 30px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: background-color 0.3s ease; /* Efecto de transición suave */
+}
+
+.btnAgregarTicket:hover {
+    background-color: #00BFFF; /* Cambia a un azul más intenso al pasar el mouse */
+}
+
+.card{
+    margin-left: 20%;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.TextoUsua{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -3.9%;
+    margin-left: 6%;
+}
+
+.TextoGmail{
+    position: absolute;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    margin-left: 1.5%;
+    margin-top: 3%;
+}
+
+.textoLetra{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.textoCard{
+    padding-left: 9%;
+    font-weight: bold;
+}
+
+.textoError{
+    padding-top: 10%;
+    padding-left: 9%;
+    font-size: 20px;
+}
+
+.btnAgregarEnable{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 0.8%;
+    background-color: #87CEEB; /* Fondo celeste */
+    color: white; /* Texto en blanco */
+    font-size: 18px; /* Tamaño del texto */
+    font-family: Arial, sans-serif; /* Fuente */
+    padding: 20px 30px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: background-color 0.3s ease; /* Efecto de transición suave */
+}
+
+.btnAgregarEnable:hover {
+    background-color: #00BFFF; /* Cambia a un azul más intenso al pasar el mouse */
+}
+
+.btnAgregarEnable2{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 9.4%;
+    background-color: #87CEEB; /* Fondo celeste */
+    color: white; /* Texto en blanco */
+    font-size: 18px; /* Tamaño del texto */
+    font-family: Arial, sans-serif; /* Fuente */
+    padding: 20px 30px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: background-color 0.3s ease; /* Efecto de transición suave */
+}
+
+.btnAgregarEnable2:hover {
+    background-color: #00BFFF; /* Cambia a un azul más intenso al pasar el mouse */
 }
