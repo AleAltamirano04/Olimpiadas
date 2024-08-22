@@ -1,0 +1,69 @@
+body{
+    background-color: whitesmoke;
+    margin: 0%;
+    padding: 0%;
+}
+
+.pantallaIzquierda{
+    background-color: white;
+    height: 100vh;
+    width: 320px;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.tituloPantallaIzquierda{
+    margin: 0%;
+    padding: 0%;
+    padding-top: 15%;
+    padding-left: 15%;
+    color: #17A589;
+    font-size: 50px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.Inicio{
+    margin-top: 40%;
+    height: 100px;
+    width: 270px;
+    background-color: #17A589;
+}
+
+.TextoInicio{
+    font-size:28px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    padding-left: 85px;
+    padding-top: 35px;
+    
+}
+
+.CasaIcon{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.boxGeneral{
+    height: 100px;
+    width: 270px;
+    background-color: white;
+}
+
+.TextoGeneral{
+    font-size:28px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    padding-left: 85px;
+    padding-bottom: 1000px;
+    position: absolute;
+}
+
+.IconGeneral{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 15px;
+}
