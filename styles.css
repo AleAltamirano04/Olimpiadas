@@ -99,7 +99,7 @@ body {
 
 .tituloPantallaIzquierda {
     padding-left: 15%;
-    color: #17A589;
+    color: #009393;
     font-size: 30px;
     font-family: sans-serif, Arial, Helvetica, sans-serif;
 }
@@ -116,10 +116,13 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+.Inicio{
+    background-color: #009393;
+}
 
 .Inicio:hover,
 .boxGeneral:hover {
-    background-color: #f1f1f1;
+    background-color: #009898;
 }
 
 .TextoInicio,
@@ -154,7 +157,7 @@ body {
     position: absolute;
     margin-top: -3%;
     margin-left: 40%;
-    background-color: #87CEEB;
+    background-color: #009393;
     color: white;
     font-size: 14px;
     padding: 8px 16px;
@@ -174,7 +177,7 @@ body {
     margin-top: -13%;
     margin-left: 50%;
     position: absolute;
-    background-color: #87CEEB;
+    background-color: #009393;
     color: white;
     font-size: 14px;
     padding: 8px 16px;
@@ -241,7 +244,7 @@ body {
 
 .btnAgregarEnable,
 .btnAgregarEnable2 {
-    background-color: #17A589;
+    background-color: #009393;
     color: white;
     font-size: 14px;
     padding: 8px 16px;

@@ -1,6 +1,6 @@
 /* General Body Settings */
 body {
-    background-color: whitesmoke;
+    background-color:  #ffffff;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -18,7 +18,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background-color: whitesmoke;
+    background-color: #ffffff;
     z-index: 1000;
 }
 
@@ -34,12 +34,12 @@ body {
     padding: 10px;
     font-size: 18px;
     border-radius: 20px 0 0 20px;
-    border: 2px solid #17A589;
+    border: 2px solid #009393;
     outline: none;
 }
 
 .btnBuscar {
-    background-color: #17A589;
+    background-color: #009393;
     border: none;
     padding: 5px;
     border-radius: 0 20px 20px 0;
@@ -99,7 +99,7 @@ body {
 
 .tituloPantallaIzquierda {
     padding-left: 15%;
-    color: #17A589;
+    color: #009393;
     font-size: 30px;
     font-family: sans-serif, Arial, Helvetica, sans-serif;
 }
@@ -117,10 +117,23 @@ body {
     transition: background-color 0.3s ease;
 }
 
+.boxGeneral2{
+    height: 60px; /* Ajustado */
+    width: 270px;
+    background-color: #009393;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
 .Inicio:hover,
 .boxGeneral:hover {
     background-color: #f1f1f1;
 }
+
 
 .TextoInicio,
 .TextoGeneral {
